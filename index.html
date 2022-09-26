@@ -4,52 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css.css">
+    <title>Belajar Mmebuat Halaman</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <!--Ini adalah block header-->
+    <!-- Header -->
     <header>
-        <nav>
-            <section>
-                <h1>
-                    <!--Tes koment-->
-                    <!---->
-                    <img src="foto/Minato_Namikaze_hokage.webp" alt=""; style ="width: 10%; margin: 20px auto; display: block;">
-                    <table style="border: white  solid; margin: 0px auto;">
-                        <tr>
-                            <td>nama</td>
-                            <td>:</td>
-                            <td>Minato-Namikaze</td>
-                        </tr>
-                             <td>nim</td>
-                            <td>:</td>
-                             <td>2103061</td>
-                        <tr>
-                            
-                            <td>alamat</td>
-                            <td>:</td>
-                            <td>Konoha</td>
-                        </tr>
-                             <td>detail</td>
-                            <td>:</td>
-                             <td>Hokage ke 4</td>
-                        <tr>
-                            <td>juliukan</td>
-                            <td>:</td>
-                            <td>Si Kilat Kuning Dari Konoha</td>
-
-                        </tr>
-                    
-                    
-
-                       </table>
-                </h1>
-
-
-            </section>
-        </nav>
+        <h1>Belajar Membuat Layout dengan HTML dan CSS</h1>
     </header>
+
+    <!-- navi -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- container untuk konten -->
+    <div id="container">
+        <!-- section kiri -->
+        <section class="kiri">
+           <div class="content">
+                <h2>Judul Berita</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod, incidunt veritatis autem earum deserunt quae ab ut maxime iure aliquam! Reprehenderit tenetur dolorum iste sunt! Odit distinctio quod recusandae?</p>
+                <button>Read More...</button>
+           </div>
+           <div class="content">
+                <h2>Judul Berita</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod, incidunt veritatis autem earum deserunt quae ab ut maxime iure aliquam! Reprehenderit tenetur dolorum iste sunt! Odit distinctio quod recusandae?</p>
+                <button>Read More...</button>
+           </div>
+        </section>
+
+        <!-- section kanan -->
+        <section class="kanan">
+           <h2>Category</h2>
+           <ul>
+                <li><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">Javascript</a></li>
+                <li><a href="">Bootsrap</a></li>
+                <li><a href="">PHP</a></li>
+                <li><a href="">MYSQL</a></li>
+                <li><a href="">Lavarel</a></li>
+           </ul>
+        </section>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <h2>Copyright PSTI 2022</h2>
+    </footer>
+
 </body>
 </html>
